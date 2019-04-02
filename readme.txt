@@ -8,4 +8,4 @@ Creating a new branch is quick AND simple
 dev1
 dev2
 
-
+dev2--no-ff
