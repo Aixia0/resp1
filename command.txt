@@ -5,7 +5,7 @@ git commit -m ""
 //查看当前状态
 git status
 //查看版本差异
-git diff file
+git diff file.txt
 //回退前一个版本
 git reset --hard HEAD^
 //回退指定版本
@@ -14,3 +14,5 @@ git reset --hard afa324324
 git log
 //查看命令历史，以便确定要回到未来的哪个版本。
 git reflog
+//查看文本
+cat file.txt
