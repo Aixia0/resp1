@@ -110,3 +110,10 @@ $git stash list
 //bug分支只用于在本地修复bug，就没必要推到远程了，除非老板要看看你每周到底修复了几个bug；
 
 //feature分支是否推到远程，取决于你是否和你的小伙伴合作在上面开发。
+
+//命令用于新建一个标签，默认为HEAD，也可以指定一个commit id；
+$git tag <tagname>
+//可以指定标签信息；
+$git tag -a <tagname> -m "blablabla..."
+//可以查看所有标签。
+$git tag
